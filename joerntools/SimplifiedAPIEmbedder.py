@@ -125,6 +125,6 @@ class APIEmbedder(object):
         
 if __name__ == '__main__':
     import sys
-    embeder = APIEmbedder()
+    embedder = APIEmbedder()
     embedder.setOutputDirectory(sys.argv[1])
-    embeder.run()
+    embedder.run()
